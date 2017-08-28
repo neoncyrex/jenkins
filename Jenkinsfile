@@ -5,8 +5,12 @@ node('build') {
     checkout scm
   }
   stage("Lint test") {
-    echo "Custom testing"
+    echo "Running lint application testing"
     sh "pylint -E test.py"
+  }
+  stage("Unit test") {
+    echo "Running unit tests"
+    sh "pytest"
   }
 }
 

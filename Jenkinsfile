@@ -6,7 +6,7 @@ node('build') {
   }
   stage("Lint test") {
     echo "Running lint application testing"
-    sh "pylint -E test.py"
+    sh "pylint -E *.py"
   }
   stage("Unit test") {
     echo "Running unit tests"

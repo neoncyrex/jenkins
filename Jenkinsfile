@@ -8,25 +8,5 @@ node('build') {
     echo "Custom testing"
     sh "pylint -E test.py"
   }
-stage("Lint test") {
-    echo "Custom testing"
-    sh "pylint -E test.py"
-  }
-stage("Lint test") {
-    echo "Custom testing"
-    sh "pylint -E test.py"
-  }
-stage("Lint test") {
-    echo "Custom testing"
-    sh "pylint -E test.py"
-  }
-stage("Lint test") {
-    echo "Custom testing"
-    sh "pylint -E test.py"
-  }
-stage("Lint test") {
-    echo "Custom testing"
-    sh "pylint -E test.py"
-  }
 }
 

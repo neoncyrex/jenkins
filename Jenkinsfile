@@ -6,12 +6,27 @@ node('build') {
   }
   stage("Lint test") {
     echo "Custom testing"
-    input "Run custom testingn?"
-    sh "true"
+    sh "pylint -E test.py"
   }
-  stage("Neon testing") {
-    echo "Neon testing"
-    sh "true"
+stage("Lint test") {
+    echo "Custom testing"
+    sh "pylint -E test.py"
+  }
+stage("Lint test") {
+    echo "Custom testing"
+    sh "pylint -E test.py"
+  }
+stage("Lint test") {
+    echo "Custom testing"
+    sh "pylint -E test.py"
+  }
+stage("Lint test") {
+    echo "Custom testing"
+    sh "pylint -E test.py"
+  }
+stage("Lint test") {
+    echo "Custom testing"
+    sh "pylint -E test.py"
   }
 }
 
